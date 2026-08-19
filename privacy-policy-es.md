@@ -115,7 +115,7 @@ Puedes ver todos los datos almacenados por la App directamente en la interfaz de
 
 ### 6.2 Exportar tus datos
 
-Desde Ajustes puedes exportar ciclos, síntomas, estados de ánimo y notas como **JSON**. También puedes exportar los registros de ciclos como **CSV**. Las demás categorías almacenadas localmente todavía no están incluidas en estas exportaciones.
+Desde Ajustes puedes exportar como **JSON** todas las categorías que Yuli guarda en su base de datos cifrada del dispositivo. La exportación JSON se crea a partir de una única captura coherente de la base de datos y falla en vez de generar deliberadamente un archivo incompleto. También puedes exportar los registros de ciclos como **CSV**. Ninguna exportación incluye los metadatos de la cuenta de Firebase ni los registros de compras y suscripciones conservados por Google, Apple o RevenueCat.
 
 ### 6.3 Eliminar tus datos
 
@@ -132,7 +132,7 @@ Si resides en el Espacio Económico Europeo, tienes derecho a:
 - **Acceder** a tus datos personales
 - **Rectificar** datos inexactos
 - **Suprimir** tus datos ("derecho al olvido")
-- **Portar** las categorías disponibles actualmente mediante las exportaciones JSON y CSV descritas arriba
+- **Portar** todas las categorías que Yuli guarda en tu dispositivo mediante la exportación JSON descrita arriba
 - **Oponerte** al tratamiento de datos
 - **Retirar el consentimiento** en cualquier momento
 

@@ -115,7 +115,7 @@ You can view all data stored by the App directly within the App's interface.
 
 ### 6.2 Export Your Data
 
-From Settings, you can export cycles, symptoms, moods, and notes as **JSON**. You can also export cycle records as **CSV**. Other locally stored categories are not currently included in these exports.
+From Settings, you can export every category stored by Yuli in its encrypted on-device database as **JSON**. The JSON export is created from one consistent database snapshot and fails rather than producing a knowingly incomplete file. You can also export cycle records as **CSV**. Neither export includes Firebase account metadata or purchase and subscription records held by Google, Apple, or RevenueCat.
 
 ### 6.3 Delete Your Data
 
@@ -132,7 +132,7 @@ If you are a resident of the European Economic Area, you have the right to:
 - **Access** your personal data
 - **Rectify** inaccurate data
 - **Erase** your data ("right to be forgotten")
-- **Port** the categories currently available through the JSON and CSV exports described above
+- **Port** all categories stored by Yuli on your device through the JSON export described above
 - **Object** to data processing
 - **Withdraw consent** at any time
 
