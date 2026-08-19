@@ -5,7 +5,7 @@ title: Privacy Policy
 
 # Privacy Policy — Yuli
 
-**Last updated:** March 30, 2026
+**Last updated:** August 18, 2026
 
 Yuli ("us", "we", or "our") operates the Yuli mobile application (the "App"). This Privacy Policy explains how we collect, use, store, and protect your personal information when you use the App.
 
@@ -115,15 +115,15 @@ You can view all data stored by the App directly within the App's interface.
 
 ### 6.2 Export Your Data
 
-You can export your data in **JSON** or **CSV** format from Settings → Data Export.
+From Settings, you can export cycles, symptoms, moods, and notes as **JSON**. You can also export cycle records as **CSV**. Other locally stored categories are not currently included in these exports.
 
 ### 6.3 Delete Your Data
 
-You can permanently delete all your data at any time from Settings. This action is irreversible and removes all locally stored data.
+Choose **Settings → Data → Delete local data** to permanently erase all Yuli data stored on your device, including health records, preferences, community activity, and mascot progress. The App also cancels its scheduled local notifications and signs you out. This irreversible action does not delete your Firebase account.
 
 ### 6.4 Account Deletion
 
-If you signed in with Google, you can sign out and delete your account from Settings. This removes the association between your Google account and the App.
+Choose **Delete account** below your account in Settings to permanently delete your Firebase Authentication account. Yuli asks you to authenticate with Google again before deletion, then erases all Yuli data stored on the device and cancels scheduled local notifications. Purchase and subscription records retained by Google Play, Apple, or RevenueCat are governed by those services and remain available for purchase restoration.
 
 ### 6.5 GDPR Rights (European Union)
 
@@ -132,7 +132,7 @@ If you are a resident of the European Economic Area, you have the right to:
 - **Access** your personal data
 - **Rectify** inaccurate data
 - **Erase** your data ("right to be forgotten")
-- **Port** your data (via JSON/CSV export)
+- **Port** the categories currently available through the JSON and CSV exports described above
 - **Object** to data processing
 - **Withdraw consent** at any time
 
