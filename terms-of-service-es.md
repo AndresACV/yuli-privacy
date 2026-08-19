@@ -7,6 +7,8 @@ title: Términos de Servicio
 
 **Última actualización:** 18 de agosto de 2026
 
+**Versión del documento:** 1
+
 Por favor lee estos Términos de Servicio ("Términos") cuidadosamente antes de usar la aplicación móvil Yuli (la "App") operada por Yuli ("nosotros" o "nuestro").
 
 Al descargar, instalar o usar la App, aceptas quedar vinculado por estos Términos. Si no estás de acuerdo, no uses la App.
@@ -209,7 +211,7 @@ Aceptas indemnizar y mantener indemne a Yuli, sus desarrolladores y afiliados de
 
 ## 13. Cambios a Estos Términos
 
-Podemos actualizar estos Términos periódicamente. Los cambios se publicarán dentro de la App y en esta URL, con la fecha de "Última actualización" revisada. El uso continuado de la App después de los cambios constituye aceptación de los Términos actualizados.
+Podemos actualizar estos Términos periódicamente. Los cambios se publicarán dentro de la App y en esta URL, con la versión del documento y la fecha de "Última actualización" revisadas. Yuli solicita una aceptación explícita dentro de la app antes de reanudar el uso normal después de un cambio material; el uso continuado por sí solo no crea una aceptación versionada almacenada. Las copias inmutables de las versiones publicadas permanecen disponibles en este repositorio.
 
 Para cambios materiales, proporcionaremos aviso a través de la App antes de que los cambios entren en vigor.
 

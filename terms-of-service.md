@@ -7,6 +7,8 @@ title: Terms of Service
 
 **Last updated:** August 18, 2026
 
+**Document version:** 1
+
 Please read these Terms of Service ("Terms") carefully before using the Yuli mobile application (the "App") operated by Yuli ("us", "we", or "our").
 
 By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree, do not use the App.
@@ -209,7 +211,7 @@ You agree to indemnify and hold harmless Yuli, its developers, and affiliates fr
 
 ## 13. Changes to These Terms
 
-We may update these Terms from time to time. Changes will be posted within the App and at this URL, with the "Last updated" date revised. Continued use of the App after changes constitutes acceptance of the updated Terms.
+We may update these Terms from time to time. Changes will be posted within the App and at this URL, with the document version and "Last updated" date revised. Yuli requests explicit in-app acceptance before normal use resumes after a material change; continued use alone does not create a stored versioned acceptance. Immutable copies of released versions remain available in this repository.
 
 For material changes, we will provide notice through the App before the changes take effect.
 
