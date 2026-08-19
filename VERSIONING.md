@@ -10,6 +10,8 @@ Released legal documents are append-only snapshots under `versions/vN/`. Version
 4. Coordinate the release with the matching constants and immutable URLs in Yuli's `lib/core/privacy/legal_document_policy.dart`.
 5. Verify GitHub Pages URLs before releasing the app.
 
+Canonical snapshot URLs include the `.html` suffix. Compatibility index pages preserve the initially published extensionless routes without changing released legal content.
+
 Material changes include processing purposes, data categories, recipients, retention, user rights, or contractual obligations. Editorial fixes that do not change meaning do not require an app review, but they must not rewrite an immutable snapshot.
 
 Privacy Notice acknowledgement, Terms acceptance, and purpose-specific consent are separate concepts. Optional processing requires its own consent and withdrawal control when consent is the applicable basis.
