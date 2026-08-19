@@ -7,9 +7,11 @@ title: Privacy Policy
 
 **Last updated:** August 18, 2026
 
+**Document version:** 1
+
 Yuli ("us", "we", or "our") operates the Yuli mobile application (the "App"). This Privacy Policy explains how we collect, use, store, and protect your personal information when you use the App.
 
-By using Yuli, you agree to the collection and use of information as described in this policy.
+This notice explains Yuli's data practices. Acknowledging that you have read it is not blanket consent to every form of processing. When Yuli relies on consent for optional processing, it requests that consent separately for a specific purpose and provides a way to withdraw it.
 
 ---
 
@@ -130,7 +132,7 @@ If you are a resident of the European Economic Area, you have the right to:
 - **Erase** your data ("right to be forgotten")
 - **Port** all categories stored by Yuli on your device through the JSON export described above
 - **Object** to data processing
-- **Withdraw consent** at any time
+- **Withdraw consent** at any time where processing relies on consent
 
 ### 6.6 CCPA Rights (California)
 
@@ -171,7 +173,7 @@ This policy will be updated before any cloud sync feature is released.
 
 ## 10. Changes to This Privacy Policy
 
-We may update this Privacy Policy from time to time. Changes will be posted within the App and at this URL, with the "Last updated" date revised accordingly. We encourage you to review this policy periodically.
+We may update this Privacy Policy from time to time. Changes will be posted within the App and at this URL, with the document version and "Last updated" date revised accordingly. Yuli requires an in-app review before normal use resumes when a material change affects processing purposes, data categories, recipients, retention, user rights, or other substantive practices. Editorial corrections do not trigger another review. Immutable copies of released versions remain available in this repository.
 
 ---
 

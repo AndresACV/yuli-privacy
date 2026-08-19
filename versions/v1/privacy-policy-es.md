@@ -1,0 +1,189 @@
+---
+layout: default
+title: Política de Privacidad
+---
+
+# Política de Privacidad — Yuli
+
+**Última actualización:** 18 de agosto de 2026
+
+**Versión del documento:** 1
+
+Yuli ("nosotros" o "nuestro") opera la aplicación móvil Yuli (la "App"). Esta Política de Privacidad explica cómo recopilamos, usamos, almacenamos y protegemos tu información personal cuando usas la App.
+
+Este aviso explica las prácticas de datos de Yuli. Confirmar que lo leíste no constituye un consentimiento general para toda forma de tratamiento. Cuando Yuli dependa del consentimiento para un tratamiento opcional, lo solicitará por separado para una finalidad específica y proporcionará una forma de retirarlo.
+
+---
+
+## 1. Información que Recopilamos
+
+### 1.1 Información que proporcionas directamente
+
+| Tipo de dato | Propósito | Almacenamiento |
+|---|---|---|
+| Selección de grupo de edad | Determinar funciones y contenido apropiados para tu edad | En el dispositivo (cifrado) |
+| Fechas del ciclo/período | Seguimiento del ciclo y predicciones | En el dispositivo (cifrado) |
+| Síntomas y estados de ánimo | Seguimiento de salud y detección de patrones | En el dispositivo (cifrado) |
+| Registros de actividad sexual | Seguimiento de fertilidad e información de salud | En el dispositivo (cifrado) |
+| Datos de embarazo | Acompañamiento del embarazo y guía semana a semana | En el dispositivo (cifrado) |
+| Entradas del registro de salud | Diario personal de salud (condiciones, tratamientos) | En el dispositivo (cifrado) |
+| Notas | Notas personales vinculadas al calendario | En el dispositivo (cifrado) |
+| Citas | Programación de citas médicas y recordatorios | En el dispositivo (cifrado) |
+| Medicamentos | Seguimiento de medicamentos y recordatorios | En el dispositivo (cifrado) |
+| Mensajes de chat con IA | Conversaciones con el asistente de salud de la app | En el dispositivo (cifrado) |
+
+### 1.2 Información recopilada a través de servicios de terceros
+
+| Tipo de dato | Servicio | Propósito |
+|---|---|---|
+| Correo electrónico, nombre, foto de perfil | Firebase Authentication (inicio de sesión con Google) | Creación de cuenta e inicio de sesión |
+| Historial de compras, estado de suscripción | RevenueCat | Procesamiento de compras dentro de la app y gestión de suscripciones |
+
+### 1.3 Información que NO recopilamos
+
+- **No** recopilamos la ubicación de tu dispositivo (GPS) sin tu consentimiento explícito
+- **No** recopilamos análisis ni telemetría de uso que incluyan información de identificación personal (PII)
+- **No** te rastreamos a través de otras apps o sitios web
+- **No** vendemos tus datos a terceros
+
+---
+
+## 2. Cómo Usamos Tu Información
+
+Usamos tu información únicamente para:
+
+- Proporcionar seguimiento del ciclo, predicciones e información de salud
+- Detectar patrones de salud y alertarte sobre posibles irregularidades
+- Ofrecer contenido y funciones apropiados para tu edad
+- Procesar compras dentro de la app y gestionar suscripciones
+- Autenticar tu cuenta (si decides iniciar sesión)
+- Proporcionar consultas de salud con inteligencia artificial (cuando esté disponible)
+
+**No** usamos tus datos para publicidad, perfilado ni ningún propósito ajeno a la funcionalidad principal de la App.
+
+---
+
+## 3. Almacenamiento y Seguridad de Datos
+
+### 3.1 Arquitectura local primero
+
+Todos tus datos de salud (ciclos, síntomas, estados de ánimo, actividad sexual, datos de embarazo, registros de salud, notas, citas, medicamentos e historial de chat con IA) se almacenan **exclusivamente en tu dispositivo** en una base de datos cifrada.
+
+### 3.2 Cifrado
+
+- **En reposo**: Todos los datos locales están cifrados con **SQLCipher (AES-256-CBC)**. La clave de cifrado se genera a partir del almacenamiento seguro de tu dispositivo (Android Keystore / iOS Keychain) y nunca se transmite ni se almacena en texto plano.
+- **En tránsito**: Todas las comunicaciones de red usan cifrado **HTTPS/TLS 1.2+**.
+
+### 3.3 Bloqueo opcional de la app
+
+Puedes activar un bloqueo por PIN o biométrico (huella dactilar, rostro) para prevenir el acceso no autorizado a la App en tu dispositivo.
+
+---
+
+## 4. Servicios de Terceros
+
+Yuli integra los siguientes servicios de terceros, cada uno regulado por sus propias políticas de privacidad:
+
+| Servicio | Propósito | Datos compartidos | Política de privacidad |
+|---|---|---|---|
+| **Firebase Authentication** (Google) | Inicio de sesión con cuenta de Google | Correo electrónico, nombre, foto de perfil | [Privacidad de Firebase](https://firebase.google.com/support/privacy) |
+| **RevenueCat** | Gestión de compras y suscripciones dentro de la app | Recibos de compra, estado de suscripción | [Privacidad de RevenueCat](https://www.revenuecat.com/privacy/) |
+
+**No** compartimos tus datos de salud (ciclos, síntomas, estados de ánimo, actividad sexual, datos de embarazo, etc.) con ningún servicio de terceros.
+
+---
+
+## 5. Privacidad de Menores (Cumplimiento COPPA)
+
+Yuli está dirigida a usuarios de al menos 13 años. La App solicita el grupo de edad antes de ofrecer la autenticación de cuenta o pedir información personal.
+
+- Si un usuario indica que es menor de 13 años, la creación de la cuenta se detiene y Yuli no solicita el inicio de sesión con Google ni el correo de un padre o tutor.
+- Yuli no recopila deliberadamente información personal de menores de 13 años.
+- Si descubrimos que recibimos información personal de un menor de 13 años, la eliminaremos. Un padre o tutor puede contactarnos mediante el correo indicado abajo.
+
+Si la audiencia objetivo de Yuli cambia en el futuro, actualizaremos la App, esta política y el proceso de consentimiento parental aplicable antes de permitir que menores de 13 años creen cuentas.
+
+---
+
+## 6. Tus Derechos
+
+### 6.1 Acceder a tus datos
+
+Puedes ver todos los datos almacenados por la App directamente en la interfaz de la App.
+
+### 6.2 Exportar tus datos
+
+Desde Ajustes puedes exportar como **JSON** todas las categorías que Yuli guarda en su base de datos cifrada del dispositivo. La exportación JSON se crea a partir de una única captura coherente de la base de datos y falla en vez de generar deliberadamente un archivo incompleto. También puedes exportar los registros de ciclos como **CSV**. Ninguna exportación incluye los metadatos de la cuenta de Firebase ni los registros de compras y suscripciones conservados por Google, Apple o RevenueCat.
+
+### 6.3 Eliminar tus datos
+
+Elige **Ajustes → Datos → Eliminar datos locales** para borrar permanentemente todos los datos de Yuli guardados en tu dispositivo, incluidos registros de salud, preferencias, actividad comunitaria y progreso de la mascota. La App también cancela sus notificaciones locales programadas y cierra tu sesión. Esta acción irreversible no elimina tu cuenta de Firebase.
+
+### 6.4 Eliminar tu cuenta
+
+Elige **Eliminar cuenta** debajo de tu cuenta en Ajustes para eliminar permanentemente tu cuenta de Firebase Authentication. Yuli te pide volver a autenticarte con Google antes de eliminarla; después borra todos los datos de Yuli guardados en el dispositivo y cancela las notificaciones locales programadas. Los registros de compras y suscripciones conservados por Google Play, Apple o RevenueCat se rigen por esos servicios y siguen disponibles para restaurar compras.
+
+### 6.5 Derechos RGPD (Unión Europea)
+
+Si resides en el Espacio Económico Europeo, tienes derecho a:
+
+- **Acceder** a tus datos personales
+- **Rectificar** datos inexactos
+- **Suprimir** tus datos ("derecho al olvido")
+- **Portar** todas las categorías que Yuli guarda en tu dispositivo mediante la exportación JSON descrita arriba
+- **Oponerte** al tratamiento de datos
+- **Retirar el consentimiento** en cualquier momento cuando el tratamiento dependa de este
+
+### 6.6 Derechos CCPA (California)
+
+Si resides en California:
+
+- Tienes derecho a saber qué información personal recopilamos
+- Tienes derecho a eliminar tu información personal
+- **No** vendemos información personal — "No vender mi información personal" no aplica, pero incluimos esta declaración según lo requerido
+
+---
+
+## 7. Retención de Datos
+
+- **Datos en el dispositivo**: Se conservan hasta que los elimines o desinstales la App
+- **Datos de Firebase Authentication**: Se conservan mientras tu cuenta exista. Puedes eliminar tu cuenta en cualquier momento
+- **Datos de compras en RevenueCat**: Se conservan según la política de retención de RevenueCat para gestionar suscripciones y restaurar compras
+
+---
+
+## 8. Publicidad
+
+Yuli actualmente **no** muestra ningún anuncio. Si se introduce publicidad en el futuro, esta política y las protecciones de edad de la App se actualizarán antes de habilitar anuncios.
+
+---
+
+## 9. Sincronización en la Nube (Función Futura)
+
+Una versión futura de Yuli podría ofrecer sincronización en la nube opcional. Si se implementa:
+
+- La sincronización en la nube será **solo por elección del usuario** — nunca activada por defecto
+- Todos los datos serán **cifrados de extremo a extremo** antes de salir de tu dispositivo
+- El servidor solo almacenará datos cifrados y nunca tendrá acceso a tus datos de salud en texto plano
+- Podrás revocar la sincronización y eliminar todos los datos del servidor en cualquier momento
+
+Esta política se actualizará antes de que se lance cualquier función de sincronización en la nube.
+
+---
+
+## 10. Cambios a Esta Política de Privacidad
+
+Podemos actualizar esta Política de Privacidad de vez en cuando. Los cambios se publicarán dentro de la App y en esta URL, con la versión del documento y la fecha de "Última actualización" revisadas. Yuli exige una revisión dentro de la app antes de reanudar el uso normal cuando un cambio material afecta finalidades de tratamiento, categorías de datos, destinatarios, retención, derechos del usuario u otras prácticas sustantivas. Las correcciones editoriales no activan otra revisión. Las copias inmutables de las versiones publicadas permanecen disponibles en este repositorio.
+
+---
+
+## 11. Contáctanos
+
+Si tienes preguntas, inquietudes o solicitudes sobre esta Política de Privacidad o tus datos, contáctanos:
+
+**Correo electrónico:** privacy@yuli.app
+
+---
+
+*Esta política de privacidad está disponible en [English](privacy-policy) y [Español](privacy-policy-es).*
+

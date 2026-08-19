@@ -7,9 +7,11 @@ title: Política de Privacidad
 
 **Última actualización:** 18 de agosto de 2026
 
+**Versión del documento:** 1
+
 Yuli ("nosotros" o "nuestro") opera la aplicación móvil Yuli (la "App"). Esta Política de Privacidad explica cómo recopilamos, usamos, almacenamos y protegemos tu información personal cuando usas la App.
 
-Al usar Yuli, aceptas la recopilación y uso de información según lo descrito en esta política.
+Este aviso explica las prácticas de datos de Yuli. Confirmar que lo leíste no constituye un consentimiento general para toda forma de tratamiento. Cuando Yuli dependa del consentimiento para un tratamiento opcional, lo solicitará por separado para una finalidad específica y proporcionará una forma de retirarlo.
 
 ---
 
@@ -130,7 +132,7 @@ Si resides en el Espacio Económico Europeo, tienes derecho a:
 - **Suprimir** tus datos ("derecho al olvido")
 - **Portar** todas las categorías que Yuli guarda en tu dispositivo mediante la exportación JSON descrita arriba
 - **Oponerte** al tratamiento de datos
-- **Retirar el consentimiento** en cualquier momento
+- **Retirar el consentimiento** en cualquier momento cuando el tratamiento dependa de este
 
 ### 6.6 Derechos CCPA (California)
 
@@ -171,7 +173,7 @@ Esta política se actualizará antes de que se lance cualquier función de sincr
 
 ## 10. Cambios a Esta Política de Privacidad
 
-Podemos actualizar esta Política de Privacidad de vez en cuando. Los cambios se publicarán dentro de la App y en esta URL, con la fecha de "Última actualización" revisada. Te recomendamos revisar esta política periódicamente.
+Podemos actualizar esta Política de Privacidad de vez en cuando. Los cambios se publicarán dentro de la App y en esta URL, con la versión del documento y la fecha de "Última actualización" revisadas. Yuli exige una revisión dentro de la app antes de reanudar el uso normal cuando un cambio material afecta finalidades de tratamiento, categorías de datos, destinatarios, retención, derechos del usuario u otras prácticas sustantivas. Las correcciones editoriales no activan otra revisión. Las copias inmutables de las versiones publicadas permanecen disponibles en este repositorio.
 
 ---
 
