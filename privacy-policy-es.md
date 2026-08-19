@@ -5,7 +5,7 @@ title: Política de Privacidad
 
 # Política de Privacidad — Yuli
 
-**Última actualización:** 30 de marzo de 2026
+**Última actualización:** 18 de agosto de 2026
 
 Yuli ("nosotros" o "nuestro") opera la aplicación móvil Yuli (la "App"). Esta Política de Privacidad explica cómo recopilamos, usamos, almacenamos y protegemos tu información personal cuando usas la App.
 
@@ -115,15 +115,15 @@ Puedes ver todos los datos almacenados por la App directamente en la interfaz de
 
 ### 6.2 Exportar tus datos
 
-Puedes exportar tus datos en formato **JSON** o **CSV** desde Ajustes → Exportar datos.
+Desde Ajustes puedes exportar ciclos, síntomas, estados de ánimo y notas como **JSON**. También puedes exportar los registros de ciclos como **CSV**. Las demás categorías almacenadas localmente todavía no están incluidas en estas exportaciones.
 
 ### 6.3 Eliminar tus datos
 
-Puedes eliminar permanentemente todos tus datos en cualquier momento desde Ajustes. Esta acción es irreversible y elimina todos los datos almacenados localmente.
+Elige **Ajustes → Datos → Eliminar datos locales** para borrar permanentemente todos los datos de Yuli guardados en tu dispositivo, incluidos registros de salud, preferencias, actividad comunitaria y progreso de la mascota. La App también cancela sus notificaciones locales programadas y cierra tu sesión. Esta acción irreversible no elimina tu cuenta de Firebase.
 
 ### 6.4 Eliminar tu cuenta
 
-Si iniciaste sesión con Google, puedes cerrar sesión y eliminar tu cuenta desde Ajustes. Esto elimina la asociación entre tu cuenta de Google y la App.
+Elige **Eliminar cuenta** debajo de tu cuenta en Ajustes para eliminar permanentemente tu cuenta de Firebase Authentication. Yuli te pide volver a autenticarte con Google antes de eliminarla; después borra todos los datos de Yuli guardados en el dispositivo y cancela las notificaciones locales programadas. Los registros de compras y suscripciones conservados por Google Play, Apple o RevenueCat se rigen por esos servicios y siguen disponibles para restaurar compras.
 
 ### 6.5 Derechos RGPD (Unión Europea)
 
@@ -132,7 +132,7 @@ Si resides en el Espacio Económico Europeo, tienes derecho a:
 - **Acceder** a tus datos personales
 - **Rectificar** datos inexactos
 - **Suprimir** tus datos ("derecho al olvido")
-- **Portar** tus datos (mediante exportación JSON/CSV)
+- **Portar** las categorías disponibles actualmente mediante las exportaciones JSON y CSV descritas arriba
 - **Oponerte** al tratamiento de datos
 - **Retirar el consentimiento** en cualquier momento
 
