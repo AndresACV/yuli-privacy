@@ -93,17 +93,13 @@ Yuli integra los siguientes servicios de terceros, cada uno regulado por sus pro
 
 ## 5. Privacidad de Menores (Cumplimiento COPPA)
 
-Yuli toma en serio la privacidad de los menores.
+Yuli está dirigida a usuarios de al menos 13 años. La App solicita el grupo de edad antes de ofrecer la autenticación de cuenta o pedir información personal.
 
-- Durante el proceso de incorporación, los usuarios seleccionan su grupo de edad. Si un usuario indica que es menor de 13 años, se aplican protecciones adicionales:
-  - Se requiere **consentimiento parental** antes de la recopilación de datos
-  - **Recopilación mínima de datos** — las funciones de análisis y chat con IA se desactivan
-  - **Sin publicidad comportamental**
-  - **Las funciones inapropiadas para su edad se ocultan** (seguimiento de actividad sexual, funciones de comunidad, servicios de ubicación)
-  - Se aplican **filtros de seguridad de contenido reforzados** a todo el contenido
-- Los padres o tutores pueden contactarnos en el correo indicado abajo para revisar, eliminar o rechazar la recopilación adicional de datos de su hijo/a.
+- Si un usuario indica que es menor de 13 años, la creación de la cuenta se detiene y Yuli no solicita el inicio de sesión con Google ni el correo de un padre o tutor.
+- Yuli no recopila deliberadamente información personal de menores de 13 años.
+- Si descubrimos que recibimos información personal de un menor de 13 años, la eliminaremos. Un padre o tutor puede contactarnos mediante el correo indicado abajo.
 
-Cumplimos con la Ley de Protección de la Privacidad Infantil en Internet (COPPA) y las regulaciones internacionales equivalentes.
+Si la audiencia objetivo de Yuli cambia en el futuro, actualizaremos la App, esta política y el proceso de consentimiento parental aplicable antes de permitir que menores de 13 años creen cuentas.
 
 ---
 
@@ -156,7 +152,7 @@ Si resides en California:
 
 ## 8. Publicidad
 
-Yuli actualmente **no** muestra ningún anuncio. Si se introduce publicidad en el futuro, esta política se actualizará, y los anuncios nunca se mostrarán a usuarios que hayan indicado ser menores de 13 años.
+Yuli actualmente **no** muestra ningún anuncio. Si se introduce publicidad en el futuro, esta política y las protecciones de edad de la App se actualizarán antes de habilitar anuncios.
 
 ---
 

@@ -5,7 +5,7 @@ title: Terms of Service
 
 # Terms of Service — Yuli
 
-**Last updated:** April 10, 2026
+**Last updated:** August 18, 2026
 
 Please read these Terms of Service ("Terms") carefully before using the Yuli mobile application (the "App") operated by Yuli ("us", "we", or "our").
 
@@ -15,12 +15,9 @@ By downloading, installing, or using the App, you agree to be bound by these Ter
 
 ## 1. Acceptance of Terms
 
-By accessing or using Yuli, you confirm that:
+By accessing or using Yuli, you confirm that you are at least **13 years of age**. Yuli does not currently offer account creation or an in-app parental-consent process for users under 13.
 
-- You are at least **13 years of age**, or
-- You are under 13 and have obtained **verifiable parental or guardian consent** as described in Section 8
-
-If you do not meet these requirements, you must not use the App.
+If you do not meet this requirement, you must not use the App.
 
 ---
 
@@ -146,9 +143,10 @@ Key points:
 
 ## 8. Children's Privacy and COPPA
 
-- Users under 13 must have **verifiable parental or guardian consent** before using the App
-- Certain features are restricted or disabled for users under 13, including community participation, AI chat, and sexual activity tracking
-- Parents or guardians may contact us at any time to review, delete, or restrict their child's data
+- Yuli is intended for users who are at least 13 years old
+- The App asks for an age group before Google authentication; an under-13 selection stops account creation
+- Yuli does not knowingly collect personal information from children under 13
+- If we learn that we received personal information from a child under 13, we will delete it; a parent or guardian may contact us for assistance
 - For more details, see Section 5 of our [Privacy Policy](privacy-policy)
 
 ---
