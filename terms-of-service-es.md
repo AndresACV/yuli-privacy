@@ -5,7 +5,7 @@ title: Términos de Servicio
 
 # Términos de Servicio — Yuli
 
-**Última actualización:** 10 de abril de 2026
+**Última actualización:** 18 de agosto de 2026
 
 Por favor lee estos Términos de Servicio ("Términos") cuidadosamente antes de usar la aplicación móvil Yuli (la "App") operada por Yuli ("nosotros" o "nuestro").
 
@@ -15,12 +15,9 @@ Al descargar, instalar o usar la App, aceptas quedar vinculado por estos Términ
 
 ## 1. Aceptación de los Términos
 
-Al acceder o usar Yuli, confirmas que:
+Al acceder o usar Yuli, confirmas que tienes al menos **13 años de edad**. Yuli actualmente no ofrece creación de cuentas ni un proceso de consentimiento parental dentro de la App para menores de 13 años.
 
-- Tienes al menos **13 años de edad**, o
-- Eres menor de 13 años y has obtenido el **consentimiento verificable de un padre o tutor** según lo descrito en la Sección 8
-
-Si no cumples con estos requisitos, no debes usar la App.
+Si no cumples con este requisito, no debes usar la App.
 
 ---
 
@@ -146,9 +143,10 @@ Puntos clave:
 
 ## 8. Privacidad de Menores y COPPA
 
-- Los usuarios menores de 13 años deben tener el **consentimiento verificable de un padre o tutor** antes de usar la App
-- Ciertas funciones están restringidas o deshabilitadas para usuarios menores de 13, incluyendo participación en la comunidad, chat con IA y seguimiento de actividad sexual
-- Los padres o tutores pueden contactarnos en cualquier momento para revisar, eliminar o restringir los datos de su hijo/a
+- Yuli está dirigida a usuarios de al menos 13 años
+- La App solicita el grupo de edad antes de la autenticación con Google; una selección de menor de 13 años detiene la creación de la cuenta
+- Yuli no recopila deliberadamente información personal de menores de 13 años
+- Si descubrimos que recibimos información personal de un menor de 13 años, la eliminaremos; un padre o tutor puede contactarnos para solicitar ayuda
 - Para más detalles, consulta la Sección 5 de nuestra [Política de Privacidad](privacy-policy-es)
 
 ---

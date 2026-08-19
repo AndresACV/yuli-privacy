@@ -93,17 +93,13 @@ We do **not** share your health data (cycles, symptoms, moods, sexual activity, 
 
 ## 5. Children's Privacy (COPPA Compliance)
 
-Yuli takes the privacy of children seriously.
+Yuli is intended for users who are at least 13 years old. The App asks for an age group before offering account authentication or requesting personal information.
 
-- During onboarding, users select their age group. If a user indicates they are under 13 years old, additional protections are applied:
-  - **Parental consent** is required before data collection
-  - **Minimal data collection** — analytics and AI chat features are disabled
-  - **No behavioral advertising**
-  - **Age-inappropriate features are hidden** (sexual activity tracking, community features, location services)
-  - **Enhanced content safety filters** are applied to all content
-- Parents or guardians may contact us at the email below to review, delete, or refuse further collection of their child's data.
+- If a user indicates that they are under 13, account creation stops and Yuli does not request a Google sign-in or parental email.
+- Yuli does not knowingly collect personal information from children under 13.
+- If we learn that we received personal information from a child under 13, we will delete it. A parent or guardian may contact us using the email below.
 
-We comply with the Children's Online Privacy Protection Act (COPPA) and equivalent international regulations.
+If Yuli's target audience changes in the future, we will update the App, this policy, and the applicable parental-consent process before allowing children under 13 to create accounts.
 
 ---
 
@@ -156,7 +152,7 @@ If you are a California resident:
 
 ## 8. Advertising
 
-Yuli currently does **not** display any advertisements. If advertising is introduced in the future, this policy will be updated, and ads will never be shown to users who have identified as under 13 years old.
+Yuli currently does **not** display any advertisements. If advertising is introduced in the future, this policy and the App's age-appropriate safeguards will be updated before ads are enabled.
 
 ---
 
