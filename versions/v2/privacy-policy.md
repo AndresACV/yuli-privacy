@@ -23,17 +23,11 @@ This notice explains Yuli's data practices. Acknowledging that you have read it 
 |---|---|---|
 | Age group selection | Determine age-appropriate features and content | On-device (encrypted) |
 | Cycle/period dates | Cycle tracking and predictions | On-device (encrypted) |
-| Symptoms and moods | Health tracking and pattern detection | On-device (encrypted) |
-| Sexual activity logs | Fertility tracking and health insights | On-device (encrypted) |
-| Pregnancy data | Pregnancy companionship and week-by-week guidance | On-device (encrypted) |
-| Health log entries | Personal health journal (conditions, treatments) | On-device (encrypted) |
-| Notes | Calendar-linked personal notes | On-device (encrypted) |
-| Appointments | Doctor appointment scheduling and reminders | On-device (encrypted) |
-| Medications | Medication tracking and reminders | On-device (encrypted) |
-| AI chat messages | Conversations with the in-app health assistant | On-device (encrypted) |
-| Pattern alerts | Health-pattern findings and recommendations | On-device (encrypted) |
+| Symptoms and moods | Cycle and wellness tracking and pattern detection | On-device (encrypted) |
+| Notes | Calendar-linked personal wellness notes | On-device (encrypted) |
+| Assistant messages | Conversations with the local in-app wellness assistant | On-device (encrypted) |
+| Cycle pattern alerts | Cycle-pattern findings and reminders | On-device (encrypted) |
 | Mascot and economy data | Growth, wardrobe, room, and currency records | On-device (encrypted) |
-| Community and doctor-directory data | Profiles, posts, comments, doctors, and reviews | On-device (encrypted) |
 
 ### 1.2 Information Collected Through Third-Party Services
 
@@ -55,12 +49,12 @@ This notice explains Yuli's data practices. Acknowledging that you have read it 
 
 We use your information solely to:
 
-- Provide cycle tracking, predictions, and health insights
-- Detect health patterns and alert you to potential irregularities
+- Provide menstrual cycle tracking, predictions, and wellness insights
+- Detect cycle patterns and remind you about them
 - Deliver age-appropriate content and features
 - Process in-app purchases and manage subscriptions
 - Authenticate your account (if you choose to sign in)
-- Provide AI-powered health consultations (when available)
+- Provide a local in-app wellness assistant
 
 We do **not** use your data for advertising, profiling, or any purpose unrelated to the App's core functionality.
 
@@ -70,7 +64,7 @@ We do **not** use your data for advertising, profiling, or any purpose unrelated
 
 ### 3.1 Local-First Architecture
 
-All your health data (cycles, symptoms, moods, sexual activity, pregnancy data, health logs, notes, appointments, medications, and AI chat history) is stored **exclusively on your device** in an encrypted database.
+All your cycle and wellness data (cycles, symptoms, moods, notes, and assistant history) is stored **exclusively on your device** in an encrypted database.
 
 ### 3.2 Encryption
 
@@ -92,7 +86,7 @@ Yuli integrates the following third-party services, each governed by their own p
 | **Firebase Authentication** (Google) | User sign-in via Google account | Email, display name, profile photo | [Firebase Privacy](https://firebase.google.com/support/privacy) |
 | **RevenueCat** | In-app purchase and subscription management | Purchase receipts, subscription status | [RevenueCat Privacy](https://www.revenuecat.com/privacy/) |
 
-We do **not** share your health data (cycles, symptoms, moods, sexual activity, pregnancy data, etc.) with any third-party service.
+We do **not** share your cycle and wellness data (cycles, symptoms, moods, notes, etc.) with any third-party service.
 
 ---
 
@@ -116,15 +110,15 @@ You can view all data stored by the App directly within the App's interface.
 
 ### 6.2 Export Your Data
 
-From Settings, you can export every category stored by Yuli in its encrypted on-device database as **JSON**: profile and preferences, cycles and cycle days, symptoms, moods, sexual activity, notes, pregnancy and pregnancy symptoms, appointments, medications, health logs, mascot/economy records, AI chat, pattern alerts, and local community/doctor-directory records. The JSON export is created from one consistent snapshot of all 23 current database tables and fails rather than producing a knowingly incomplete file. You can also export cycle records as **CSV** only. Exports do not include Firebase account metadata, the database encryption key, scheduled notification state, or purchase and subscription records held by Google, Apple, or RevenueCat.
+From Settings, you can export every category stored by Yuli in its encrypted on-device database as **JSON**: profile and preferences, cycles and cycle days, symptoms, moods, notes, mascot/economy records, assistant messages, and cycle pattern alerts. The JSON export is created from one consistent snapshot of the database and fails rather than producing a knowingly incomplete file. You can also export cycle records as **CSV** only. Exports do not include Firebase account metadata, the database encryption key, scheduled notification state, or purchase and subscription records held by Google, Apple, or RevenueCat.
 
 ### 6.3 Delete Your Data
 
-Choose **Settings → Data → Delete local data** to permanently erase all rows in Yuli's on-device database, including health records, preferences, community activity, mascot progress, and previously generated Yuli export files. The App also cancels its scheduled local notifications and signs you out. This irreversible action does not delete your Firebase account or records retained by Google, Apple, or RevenueCat.
+Choose **Settings → Data → Delete local data** to permanently erase all rows in Yuli's on-device database, including cycle and wellness records, preferences, mascot progress, and previously generated Yuli export files. The App also cancels its scheduled local notifications and signs you out. This irreversible action does not delete your Firebase account or records retained by Google, Apple, or RevenueCat.
 
 ### 6.4 Account Deletion
 
-Choose **Delete account** below your account in Settings to permanently delete your Firebase Authentication account. Yuli asks you to authenticate with Google again before deletion, then erases the on-device database rows and Yuli export files and cancels scheduled local notifications. Purchase and subscription records retained by Google Play, Apple, or RevenueCat are governed by those services and are not deleted by Yuli. The current app has no cloud-sync or community backend; all community records currently covered by this control are local database records.
+Choose **Delete account** below your account in Settings to permanently delete your Firebase Authentication account. Yuli asks you to authenticate with Google again before deletion, then erases the on-device database rows and Yuli export files and cancels scheduled local notifications. Purchase and subscription records retained by Google Play, Apple, or RevenueCat are governed by those services and are not deleted by Yuli. The current app has no cloud-sync backend; all records covered by this control are local database records.
 
 ### 6.5 GDPR Rights (European Union)
 
