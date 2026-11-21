@@ -23,17 +23,11 @@ Este aviso explica las prácticas de datos de Yuli. Confirmar que lo leíste no 
 |---|---|---|
 | Selección de grupo de edad | Determinar funciones y contenido apropiados para tu edad | En el dispositivo (cifrado) |
 | Fechas del ciclo/período | Seguimiento del ciclo y predicciones | En el dispositivo (cifrado) |
-| Síntomas y estados de ánimo | Seguimiento de salud y detección de patrones | En el dispositivo (cifrado) |
-| Registros de actividad sexual | Seguimiento de fertilidad e información de salud | En el dispositivo (cifrado) |
-| Datos de embarazo | Acompañamiento del embarazo y guía semana a semana | En el dispositivo (cifrado) |
-| Entradas del registro de salud | Diario personal de salud (condiciones, tratamientos) | En el dispositivo (cifrado) |
-| Notas | Notas personales vinculadas al calendario | En el dispositivo (cifrado) |
-| Citas | Programación de citas médicas y recordatorios | En el dispositivo (cifrado) |
-| Medicamentos | Seguimiento de medicamentos y recordatorios | En el dispositivo (cifrado) |
-| Mensajes de chat con IA | Conversaciones con el asistente de salud de la app | En el dispositivo (cifrado) |
-| Alertas de patrones | Hallazgos y recomendaciones sobre patrones de salud | En el dispositivo (cifrado) |
+| Síntomas y estados de ánimo | Seguimiento del ciclo y del bienestar, y detección de patrones | En el dispositivo (cifrado) |
+| Notas | Notas personales de bienestar vinculadas al calendario | En el dispositivo (cifrado) |
+| Mensajes del asistente | Conversaciones con el asistente de bienestar local de la app | En el dispositivo (cifrado) |
+| Alertas de patrones del ciclo | Hallazgos y recordatorios sobre patrones del ciclo | En el dispositivo (cifrado) |
 | Datos de mascota y economía | Crecimiento, vestuario, habitación y monedas | En el dispositivo (cifrado) |
-| Datos de comunidad y directorio médico | Perfiles, publicaciones, comentarios, médicos y reseñas | En el dispositivo (cifrado) |
 
 ### 1.2 Información recopilada a través de servicios de terceros
 
@@ -55,12 +49,12 @@ Este aviso explica las prácticas de datos de Yuli. Confirmar que lo leíste no 
 
 Usamos tu información únicamente para:
 
-- Proporcionar seguimiento del ciclo, predicciones e información de salud
-- Detectar patrones de salud y alertarte sobre posibles irregularidades
+- Proporcionar seguimiento del ciclo menstrual, predicciones e información de bienestar
+- Detectar patrones del ciclo y recordártelos
 - Ofrecer contenido y funciones apropiados para tu edad
 - Procesar compras dentro de la app y gestionar suscripciones
 - Autenticar tu cuenta (si decides iniciar sesión)
-- Proporcionar consultas de salud con inteligencia artificial (cuando esté disponible)
+- Proporcionar un asistente de bienestar local dentro de la app
 
 **No** usamos tus datos para publicidad, perfilado ni ningún propósito ajeno a la funcionalidad principal de la App.
 
@@ -70,7 +64,7 @@ Usamos tu información únicamente para:
 
 ### 3.1 Arquitectura local primero
 
-Todos tus datos de salud (ciclos, síntomas, estados de ánimo, actividad sexual, datos de embarazo, registros de salud, notas, citas, medicamentos e historial de chat con IA) se almacenan **exclusivamente en tu dispositivo** en una base de datos cifrada.
+Todos tus datos del ciclo y de bienestar (ciclos, síntomas, estados de ánimo, notas e historial del asistente) se almacenan **exclusivamente en tu dispositivo** en una base de datos cifrada.
 
 ### 3.2 Cifrado
 
@@ -92,7 +86,7 @@ Yuli integra los siguientes servicios de terceros, cada uno regulado por sus pro
 | **Firebase Authentication** (Google) | Inicio de sesión con cuenta de Google | Correo electrónico, nombre, foto de perfil | [Privacidad de Firebase](https://firebase.google.com/support/privacy) |
 | **RevenueCat** | Gestión de compras y suscripciones dentro de la app | Recibos de compra, estado de suscripción | [Privacidad de RevenueCat](https://www.revenuecat.com/privacy/) |
 
-**No** compartimos tus datos de salud (ciclos, síntomas, estados de ánimo, actividad sexual, datos de embarazo, etc.) con ningún servicio de terceros.
+**No** compartimos tus datos del ciclo y de bienestar (ciclos, síntomas, estados de ánimo, notas, etc.) con ningún servicio de terceros.
 
 ---
 
@@ -116,15 +110,15 @@ Puedes ver todos los datos almacenados por la App directamente en la interfaz de
 
 ### 6.2 Exportar tus datos
 
-Desde Ajustes puedes exportar como **JSON** todas las categorías que Yuli guarda en su base de datos cifrada del dispositivo: perfil y preferencias, ciclos y días de ciclo, síntomas, estados de ánimo, actividad sexual, notas, embarazo y síntomas del embarazo, citas, medicamentos, registros de salud, datos de mascota/economía, chat con IA, alertas de patrones y registros locales de comunidad/directorio médico. La exportación JSON se crea a partir de una única captura coherente de las 23 tablas actuales de la base de datos y falla en vez de generar deliberadamente un archivo incompleto. También puedes exportar únicamente los registros de ciclos como **CSV**. Las exportaciones no incluyen los metadatos de la cuenta de Firebase, la clave de cifrado de la base de datos, el estado de las notificaciones programadas ni los registros de compras y suscripciones conservados por Google, Apple o RevenueCat.
+Desde Ajustes puedes exportar como **JSON** todas las categorías que Yuli guarda en su base de datos cifrada del dispositivo: perfil y preferencias, ciclos y días de ciclo, síntomas, estados de ánimo, notas, datos de mascota/economía, mensajes del asistente y alertas de patrones del ciclo. La exportación JSON se crea a partir de una única captura coherente de la base de datos y falla en vez de generar deliberadamente un archivo incompleto. También puedes exportar únicamente los registros de ciclos como **CSV**. Las exportaciones no incluyen los metadatos de la cuenta de Firebase, la clave de cifrado de la base de datos, el estado de las notificaciones programadas ni los registros de compras y suscripciones conservados por Google, Apple o RevenueCat.
 
 ### 6.3 Eliminar tus datos
 
-Elige **Ajustes → Datos → Eliminar datos locales** para borrar permanentemente todas las filas de la base de datos de Yuli en tu dispositivo, incluidos registros de salud, preferencias, actividad comunitaria, progreso de la mascota y archivos de exportación de Yuli creados anteriormente. La App también cancela sus notificaciones locales programadas y cierra tu sesión. Esta acción irreversible no elimina tu cuenta de Firebase ni los registros conservados por Google, Apple o RevenueCat.
+Elige **Ajustes → Datos → Eliminar datos locales** para borrar permanentemente todas las filas de la base de datos de Yuli en tu dispositivo, incluidos registros del ciclo y de bienestar, preferencias, progreso de la mascota y archivos de exportación de Yuli creados anteriormente. La App también cancela sus notificaciones locales programadas y cierra tu sesión. Esta acción irreversible no elimina tu cuenta de Firebase ni los registros conservados por Google, Apple o RevenueCat.
 
 ### 6.4 Eliminar tu cuenta
 
-Elige **Eliminar cuenta** debajo de tu cuenta en Ajustes para eliminar permanentemente tu cuenta de Firebase Authentication. Yuli te pide volver a autenticarte con Google antes de eliminarla; después borra las filas de la base de datos y los archivos de exportación de Yuli guardados en el dispositivo y cancela las notificaciones locales programadas. Los registros de compras y suscripciones conservados por Google Play, Apple o RevenueCat se rigen por esos servicios y Yuli no los elimina. La aplicación actual no tiene sincronización en la nube ni backend de comunidad; todos los registros de comunidad cubiertos actualmente por este control son registros locales de la base de datos.
+Elige **Eliminar cuenta** debajo de tu cuenta en Ajustes para eliminar permanentemente tu cuenta de Firebase Authentication. Yuli te pide volver a autenticarte con Google antes de eliminarla; después borra las filas de la base de datos y los archivos de exportación de Yuli guardados en el dispositivo y cancela las notificaciones locales programadas. Los registros de compras y suscripciones conservados por Google Play, Apple o RevenueCat se rigen por esos servicios y Yuli no los elimina. La aplicación actual no tiene sincronización en la nube; todos los registros cubiertos por este control son registros locales de la base de datos.
 
 ### 6.5 Derechos RGPD (Unión Europea)
 
